@@ -1,3 +1,7 @@
+//VERY EASY: Write a function named min that takes two arguments and returns their minimum.
+
+
+
 var num1 = parseInt(prompt("Enter your first number: "), 10);
 var num2 = parseInt(prompt("Enter your second number: "), 10);
 
