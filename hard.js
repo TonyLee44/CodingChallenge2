@@ -23,13 +23,12 @@ function calculateBMI(height, mass) {
     return mass/(height*height);
 }
 
-for (i = 0; i < names.length; i++) {
+for (let i = 0; i < names.length; i++) {
     const calculatedBMI = calculateBMI(height[i], mass[i]);
-    console.log(calculatedBMI);
+
     if (names[i] === "Tom") {
         tomBmi = calculatedBMI;
-    }
-    else {
+    } else {
         jerryBmi = calculatedBMI;
     }
 }
